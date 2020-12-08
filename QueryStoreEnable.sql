@@ -1,5 +1,7 @@
 -- SQL query to enable QueryStore 
 -- This script is re-runnable 
+-- Replace [YourDBName] with proper name
+
 USE [master]
 GO
 ALTER DATABASE [YourDBName] SET QUERY_STORE = ON
