@@ -1,0 +1,5 @@
+CREATE SEQUENCE CountBy1
+    START WITH 2050
+    INCREMENT BY 10 ;
+
+    SELECT next value for CountBy1
